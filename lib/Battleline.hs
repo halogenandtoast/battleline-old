@@ -2,6 +2,8 @@ module Battleline
     ( initialState
     , currentHand
     , BattlelineState
+    , applyMove
+    , checkVictoryConditions
     ) where
 
 
@@ -13,3 +15,8 @@ instance Show BattlelineState where
 initialState = undefined
 
 currentHand _ = "Hand"
+
+applyMove _ _ _  = undefined
+
+checkVictoryConditions _ = undefined
+
